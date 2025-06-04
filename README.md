@@ -16,18 +16,26 @@ This project analyzes the Global Terrorism Database (GTD) using Hadoop MapReduce
 
 > Refer: [phoenixNAP Hadoop Setup Guide](https://phoenixnap.com/kb/install-hadoop-ubuntu)
 
-1.Install jdk on Ubuntu
-2.Setup Hadoop User and configure SSH
-3.Download and install Hadoop on Ubuntu
-4.Single Node Hadoop deployment
-5.Format HDFS NameNode
-6.Start Hadoop cluster
-7.Access Hadoop from Browser
+1. Install JDK on Ubuntu
+
+2. Setup Hadoop User and configure SSH
+
+3. Download and install Hadoop on Ubuntu
+
+4. Single Node Hadoop deployment
+
+5. Format HDFS NameNode
+
+6. Start Hadoop cluster
+
+7. Access Hadoop from Browser
 
 ## Download and clean data
 
-1.Download dataset from kaggle "https://www.kaggle.com/datasets/START-UMD/gtd"
-2.Run preprocess_gtd.py to clean data set and remove header values of data set.
+1. Download the dataset from Kaggle: [https://www.kaggle.com/datasets/START-UMD/gtd](https://www.kaggle.com/datasets/START-UMD/gtd)  
+
+2. Run `preprocess_gtd.py` to clean the dataset and remove header values.
+
 
 ## Steps to Run
 
