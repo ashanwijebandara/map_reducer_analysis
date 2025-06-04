@@ -72,6 +72,8 @@ pip3 install --user pandas matplotlib
 ## Results
 
 Output -> top10_countries.csv 
+
 By visualizing this data we can show where the top 10 countries with the most terrorist attacks.
+
 Result is shown in top10_countries.png file with the counts.
 
