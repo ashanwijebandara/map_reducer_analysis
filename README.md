@@ -4,7 +4,7 @@ This project analyzes the Global Terrorism Database (GTD) using Hadoop MapReduce
 
 ## Files
 
-- `gtd_clean.csv` – Preprocessed dataset
+- `preprocess_gtd.py` – Preprocessing script
 - `mapper.py` – MapReduce mapper script
 - `reducer.py` – MapReduce reducer script
 - `gtd_output.txt` – Output file from HDFS
