@@ -35,7 +35,9 @@ This project analyzes the Global Terrorism Database (GTD) using Hadoop MapReduce
 1. Download the dataset from Kaggle: [https://www.kaggle.com/datasets/START-UMD/gtd](https://www.kaggle.com/datasets/START-UMD/gtd)  
 
 2. Run `preprocess_gtd.py` to clean the dataset and remove header values.
-
+```bash
+python3 preprocess_gtd.py
+```
 
 ## Steps to Run
 
