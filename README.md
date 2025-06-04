@@ -12,6 +12,23 @@ This project analyzes the Global Terrorism Database (GTD) using Hadoop MapReduce
 - `top10_countries.csv` – CSV result of the top 10
 - `top10_countries.png` – Plot saved as PNG
 
+## Steps to setup Hadoop in Ubuntu
+
+> Refer: [phoenixNAP Hadoop Setup Guide](https://phoenixnap.com/kb/install-hadoop-ubuntu)
+
+1.Install jdk on Ubuntu
+2.Setup Hadoop User and configure SSH
+3.Download and install Hadoop on Ubuntu
+4.Single Node Hadoop deployment
+5.Format HDFS NameNode
+6.Start Hadoop cluster
+7.Access Hadoop from Browser
+
+## Download and clean data
+
+1.Download dataset from kaggle "https://www.kaggle.com/datasets/START-UMD/gtd"
+2.Run preprocess_gtd.py to clean data set and remove header values of data set.
+
 ## Steps to Run
 
 ### 1. Upload dataset to HDFS
@@ -44,5 +61,9 @@ python3 top_countries.py
 sudo apt install python3-pip
 pip3 install --user pandas matplotlib
 ```
+## Results
 
+Output -> top10_countries.csv 
+By visualizing this data we can show where the top 10 countries with the most terrorist attacks.
+Result is shown in top10_countries.png file with the counts.
 

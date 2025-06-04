@@ -12,8 +12,8 @@ with open(input_file, "r", encoding="utf-8", errors="replace") as infile, \
     header = next(reader, None)  # Skip the header row
 
     for row in reader:
-        # Basic check: write only rows with enough columns
-        if len(row) >= 135:  # GTD usually has around 135 columns
+        
+        if len(row) >= 135:  # GTD has around 135 columns
             writer.writerow(row)
 
 print(f"✅ Preprocessing complete. Output saved to {output_file}")

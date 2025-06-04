@@ -7,5 +7,5 @@ next(reader)  # skip header
 
 for row in reader:
     if len(row) > 8:
-        country = row[8]  # country_txt column
+        country = row[8]  
         print(f"{country}\t1")
