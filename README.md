@@ -80,7 +80,7 @@ By visualizing this data we can show where the top 10 countries with the most te
 Result is shown in top10_countries.png file with the counts.
  -->
 
-# 🌍 GTD Terrorism Data Analysis with Hadoop MapReduce 🚀
+# 🌍 Global Terrorism Data Analysis with Hadoop MapReduce 🚀
 
 This project analyzes the **Global Terrorism Database (GTD)** using Hadoop MapReduce and creates a visualization of the **top 10 countries** with the most terrorist attacks. 📊
 
