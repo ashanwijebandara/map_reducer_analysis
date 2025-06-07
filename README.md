@@ -97,6 +97,7 @@ This project analyzes the **Global Terrorism Database (GTD)** using Hadoop MapRe
 ## 🛠️ Steps to Set Up Hadoop in Ubuntu
 
 > 📚 Refer: [phoenixNAP Hadoop Setup Guide](https://phoenixnap.com/kb/install-hadoop-ubuntu)
+> 📚 Refer: [my Article in Medium](https://medium.com/@wijebandara.ashan/how-to-install-hadoop-on-ubuntu-94fc9c4845ed)
 
 1. ☕ **Install JDK** on Ubuntu
 2. 🔑 **Set up Hadoop User** and configure SSH
@@ -108,6 +109,8 @@ This project analyzes the **Global Terrorism Database (GTD)** using Hadoop MapRe
 
 ## 📥 Download and Clean Data
 
+> 📚 Refer: [my Article in Medium](https://medium.com/@wijebandara.ashan/mapreduce-with-hadoop-for-large-datasets-a37672b5db27)
+
 1. 🌐 Download the dataset from Kaggle: [Global Terrorism Database](https://www.kaggle.com/datasets/START-UMD/gtd)
 2. 🧹 Run `preprocess_gtd.py` to clean the dataset and remove header values:
 
@@ -116,6 +119,7 @@ python3 preprocess_gtd.py
 ```
 
 ## 🚀 Steps to Run
+
 ### 1. 📤 Upload Dataset to HDFS
 ```bash
 hdfs dfs -mkdir -p /gtd_input
